@@ -1,0 +1,95 @@
+/*comentarios*/
+
+/*selector de tipo etiqueta HTML*/
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center
+}
+.titulo{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bolder;
+        color: #7f0cb8;
+        padding: 3px;
+        margin: 3px;
+ }
+ body{
+     background-color: rgb(255, 192, 252);
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ h1{
+    
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+h1{
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+ h3{
+    color: hsl(271, 81%, 37%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ p{
+     font-weight:bold; /*Negritas*/
+     text-align: justify;
+     }
+ 
+ img{
+     width: 500px;
+     height: 400px;
+ }
+
+ ul li{
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+ /*SELECTORES DE TIPO CLASE*/
+ .titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #d582ff;
+   
+}
+ 
+ .tarjeta{
+     background-color: rgb(237, 88, 254);
+     border: 10px solid rgb(255, 100, 216);
+     margin: 20px;
+ }
+ 
+ /*SELECTOR DE TIPO ID identificador 1*/
+ #titulo_historia{
+     color: rgb(154, 4, 156);
+ }
+ #titulo_programas{
+     color: rgb(105, 22, 105);
+ }
+ #titulo_discografia{
+     color: rgb(48, 2, 87);
+ }
+ #titulo_fav{
+     color: rgb(138, 7, 127);
+ }
+ #titulo_suscripcion{
+     color: #450764;
+ }
+ #imagen1{
+     margin: 10px;
+     width: 500;/*Unidades relativas*/
+     height: 400%;
+     border-radius: 50%;/*Bordes redondeados*/
+     
+ }
+ #imagen2{
+     margin: 10px;
+     width: 500px;/*unidades estaticas*/
+     height: 400px;
+     border-radius: 50%;/*Bordes redondeados*/
+ }
+ 
